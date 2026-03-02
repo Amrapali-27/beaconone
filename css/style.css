@@ -91,7 +91,9 @@ header {
   z-index: 1060;
 }
 .custom-toggler {
-  position: relative;
+  position: absolute;
+  top: 40px;
+  right: 20px;
   width: 30px;
   height: 20px;
   display: flex;
@@ -170,6 +172,9 @@ header {
 }
 
 .navbar-brand {
+  position: absolute;
+  top: -25px;
+  left: 40px;
   max-width: 224px;
   height: 224px;
   display: inline-block;
@@ -179,11 +184,15 @@ header {
   height: 100%;
   object-fit: contain;
 }
+.navbar{
+  padding: 45px 0 0
+  ;
+}
 
 /* HERO SECTION */
 .hero-section {
   padding: 50px 0;
-  margin-top: -72px;
+  /* margin-top: -45px; */
 }
 
 .hero-wrapper {
@@ -192,7 +201,7 @@ header {
   background-position: center;
   border-radius: 28px;
   padding: 80px 60px 0;
-  margin-top: -53px;
+  /* margin-top: -53px; */
 }
 
 .hero-title {
@@ -685,8 +694,9 @@ header {
   }
 
   .navbar-brand img {
-    height: 200px;
+    height: 140px;
   }
+  
 
   /* UNLOCK SECTION */
   .unlock-section {
